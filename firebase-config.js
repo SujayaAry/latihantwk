@@ -22,7 +22,7 @@ const NAMA_KOLEKSI = "hasil_latihan_twk";
 
 // Opsional: isi dengan URL Web App Google Apps Script untuk pengiriman ganda ke Google Sheets.
 // Kosongkan ("") jika tidak dipakai.
-const GOOGLE_SHEETS_URL = ""; // isi dengan URL Web App Apps Script yang BARU (berakhiran /exec)
+const GOOGLE_SHEETS_URL = "https://script.google.com/macros/s/AKfycbwXjwMqWZvsFYAg0hNiLL8d3kkDl3nwpza5Op5h5hTd4TwZ-SJHoC1uwWjIt2RWyLw8/exec"; // isi dengan URL Web App Apps Script yang BARU (berakhiran /exec)
 
 const app = initializeApp(firebaseConfig);
 try { getAnalytics(app); } catch (e) { /* Analytics tidak wajib */ }
