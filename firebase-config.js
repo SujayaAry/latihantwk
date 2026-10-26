@@ -1,20 +1,20 @@
 // Mengimpor fungsi Firebase langsung melalui CDN
 // PENTING: ketiga import harus memakai versi SDK yang SAMA (jangan dicampur).
-import { initializeApp } from "https://www.gstatic.com/firebasejs/12.19.0/firebase-app.js";
-import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.19.0/firebase-analytics.js";
+import { initializeApp } from "https://www.gstatic.com/firebasejs/13.1.0/firebase-app.js";
+import { getAnalytics } from "https://www.gstatic.com/firebasejs/13.1.0/firebase-analytics.js";
 import { getFirestore, collection, addDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/12.19.0/firebase-firestore.js";
 
 // =====================================================================
 // 1. KONFIGURASI FIREBASE
 // =====================================================================
 const firebaseConfig = {
-  apiKey: "ISI_DARI_FIREBASE_CONSOLE",
-  authDomain: "ISI_DARI_FIREBASE_CONSOLE",
-  projectId: "ISI_DARI_FIREBASE_CONSOLE",
-  storageBucket: "ISI_DARI_FIREBASE_CONSOLE",
-  messagingSenderId: "ISI_DARI_FIREBASE_CONSOLE",
-  appId: "ISI_DARI_FIREBASE_CONSOLE",
-  measurementId: "ISI_DARI_FIREBASE_CONSOLE" // boleh dihapus jika Analytics tidak diaktifkan
+  apiKey: "AIzaSyAX2YCkxfihcrd0PW7kNIkkASkQNH1p4is",
+  authDomain: "jlc-twk.firebaseapp.com",
+  projectId: "jlc-twk",
+  storageBucket: "jlc-twk.firebasestorage.app",
+  messagingSenderId: "130168062866",
+  appId: "1:130168062866:web:da7328dec7177192b4f74b",
+  measurementId: "G-KHNZK4TF9S"
 };
 
 // Koleksi khusus Latihan TWK
